@@ -11,10 +11,10 @@ int main() {
   person person3(500, "Scott");
   person person4(800, "Urmum");
 
-  cout << person1.getName() << " " << person1.getSalary() << endl;
-  cout << person2.getName() << " " << person2.getSalary() << endl;
-  cout << person3.getName() << " " << person3.getSalary() << endl;
-  cout << person4.getName() << " " << person4.getSalary() << endl;
+  cout << "Person " << person1.getName() << " has salary " << person1.getSalary() << endl;
+  cout << "Person " << person2.getName() << " has salary " << person2.getSalary() << endl;
+  cout << "Person " << person3.getName() << " has salary " << person3.getSalary() << endl;
+  cout << "Person " << person4.getName() << " has salary " << person4.getSalary() << endl;
 
   return 0;
 }
