@@ -1,20 +1,21 @@
 #include "Capybara.h"
-#include <iostream>
 
 using namespace std;
 
-void setName(string capyName) {
-
+void Capybara::setName(string capyName) {
+    name = capyName;
+    return;
 }
 
-string getName() {
-
+string Capybara::getName() {
+    return name;
 }
 
-void setAge(int capyAge) {
-
+void Capybara::setAge(int newAge) {
+    age = newAge;
+    return;
 }
 
-int getAge() {
-
+int Capybara::getAge() {
+    return age;
 }

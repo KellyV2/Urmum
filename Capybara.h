@@ -9,6 +9,6 @@ private:
 public:
     void setName(string capyName);
     string getName();
-    void setAge(int age);
+    void setAge(int newAge);
     int getAge();
 };
