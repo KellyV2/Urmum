@@ -1,14 +1,14 @@
 #include "Person.h"
 #include <string>
 
-void person::setName(string myName) {
+void Person::setName(string myName) {
   name = myName;
 }
 
-string person::getName() { return this->name; }
+string Person::getName() { return this->name; }
 
-void person::setSalary(int mySalary) {
+void Person::setSalary(int mySalary) {
   salary = mySalary;
 }
 
-int person::getSalary() { return this->salary; }
+int Person::getSalary() { return this->salary; }

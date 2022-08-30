@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class person {
+class Person {
  private:
     string name;
     int salary;
@@ -12,5 +12,5 @@ class person {
   string getName();
   void setSalary(int mySalary);
   int getSalary();
-  person() : name("invalid"), salary(0){};
+  Person() : name("invalid"), salary(0){};
 };
