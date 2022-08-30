@@ -1,19 +1,15 @@
 #include "Person.h"
+#include <iostream>
+
+using namespace std;
 
 int main() {
-    person person1, person2, person3, person4;
+    person person1(500, "foo"), person2(0, "Valen"), person3(500, "Scott"), person4(800, "Urmum");
 
-    person1.setSalary(10);
-    person1.setName("Foo");
-
-    person2.setSalary(0);
-    person2.setName("Valen");
-
-    person3.setSalary(500);
-    person3.setName("Scott");
-
-    person4.setSalary(2000);
-    person4.setName("Jeff");
+    cout << person1.getName() << person1.getSalary() << endl;
+    cout << person2.getName() << person2.getSalary() << endl;
+    cout << person3.getName() << person3.getSalary() << endl;
+    cout << person4.getName() << person4.getSalary() << endl;
 
     return 0;
 }
