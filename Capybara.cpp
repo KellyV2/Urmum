@@ -1,7 +1,5 @@
 #include "Capybara.h"
 
-using namespace std;
-
 void Capybara::setName(string capyName) {
     name = capyName;
     return;
