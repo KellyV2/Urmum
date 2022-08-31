@@ -1,5 +1,4 @@
 #include "Person.h"
-#include <iostream>
 #include <string>
 
 using namespace std;
@@ -21,5 +20,6 @@ int Person::getSalary() {
 }
 
 Person::Person(int mySalary, string myName) : salary() {
-    cout << "Person: " << myName << " has salary " << mySalary << endl;
+    salary = mySalary;
+    name = myName;
 }
