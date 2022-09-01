@@ -9,7 +9,7 @@ bool Wagon::addCapybara(Capybara newCapy) {
 }
 
 void Wagon::emptyWagon() {
-    capybara1;
+
 }
 
 void Wagon::printCapybaras() {
