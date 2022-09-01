@@ -1,5 +1,4 @@
 #include "Wagon.h"
-#pragma once
 
 int main() {
     Capybara capybara_1, capybara_2, capybara_3, capybara_4;

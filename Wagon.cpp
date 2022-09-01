@@ -1,9 +1,9 @@
-#include "Wagon.h"
 #include <iostream>
+#include "Wagon.h"
 
 using namespace std;
 
-Wagon::Wagon() {
+Wagon::Wagon(){
 
 }
 
@@ -15,8 +15,7 @@ bool Wagon::addCapybara(Capybara newCapy) {
     index++;
     return true;
 }
-
-void Wagon::emptyWagon() {
+void Wagon::emptyWagon(){
     index = 0;
     for (int i = 0; i < 4; i++) {
         on_wagon[i] = Capybara();
@@ -24,10 +23,10 @@ void Wagon::emptyWagon() {
 }
 
 void Wagon::printCapybaras() {
-    if (index == 0) {
+    if(index == 0){
         return;
     } else {
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < index; i++) {
             cout << on_wagon[i].getName() << " " << on_wagon[i].getAge() << endl;
         }
     }

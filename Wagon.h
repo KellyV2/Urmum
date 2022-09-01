@@ -1,5 +1,5 @@
 #include "Capybara.h"
-#pragma once
+#include <iostream>
 
 class Wagon {
 private:
