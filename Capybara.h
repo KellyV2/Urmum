@@ -11,4 +11,6 @@ public:
     string getName();
     void setAge(int newAge);
     int getAge();
+
+    Capybara(int i, const char string[6]);
 };

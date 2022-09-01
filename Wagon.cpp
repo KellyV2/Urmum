@@ -1,15 +1,20 @@
-#include "Capybara.h"
+#include "Wagon.h"
+#include <iostream>
 
-bool addCapybara(Capybara, newCapy) {
-    bool state = false;
+using namespace std;
 
-    return state;
+bool Wagon::addCapybara(Capybara newCapy) {
+
+    return false;
 }
 
-void emptyWagon() {
-
+void Wagon::emptyWagon() {
+    capybara1;
 }
 
-void printCapybaras() {
-
+void Wagon::printCapybaras() {
+    cout << capybara1.getName() << endl << capybara1.getAge() << endl;
+    cout << capybara2.getName() << endl << capybara2.getAge() << endl;
+    cout << capybara3.getName() << endl << capybara3.getAge() << endl;
+    cout << capybara4.getName() << endl << capybara4.getAge() << endl;
 }
