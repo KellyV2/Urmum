@@ -3,12 +3,11 @@
 
 class Wagon {
 private:
-    Capybara capybara1;
-    Capybara capybara2;
-    Capybara capybara3;
-    Capybara capybara4;
+    int index = 0;
+    Capybara on_wagon[4];
 public:
-    static bool addCapybara(Capybara newCapy);
+    Wagon();
+    bool addCapybara(Capybara newCapy);
     void emptyWagon();
     void printCapybaras();
 };
