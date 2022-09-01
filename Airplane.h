@@ -4,8 +4,9 @@
 
 class Airplane {
 private:
-    string pilot;
-    string coPilot;
+    Person pilot;
+    Person coPilot;
+    string sign;
 public:
     Airplane(string callsign, Person thePilot, Person theCoPilot);
     void setPilot(Person thePilot);
